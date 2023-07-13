@@ -1,0 +1,18 @@
+
+> @dopt/blocks-javascript-node-client@1.0.1 build /home/joe/dopt/repos/dopt/clients/@dopt/blocks/javascript-node-client
+> pnpm run symlink-spec; dotenv fern generate
+
+
+> @dopt/blocks-javascript-node-client@1.0.1 symlink-spec /home/joe/dopt/repos/dopt/clients/@dopt/blocks/javascript-node-client
+> ts-node-esm ./symlink-spec.ts
+
+Symlink to @blocks/openapi already exists
+[api]: fernapi/fern-typescript-node-sdk Started.
+[api]: fernapi/fern-typescript-node-sdk Started.
+[api]: fernapi/fern-openapi Started.
+[api]: fernapi/fern-openapi Downloaded to /home/joe/dopt/repos/dopt/clients/@dopt/blocks/javascript-node-client/dist/openapi
+[api]: fernapi/fern-openapi Finished.
+[api]: fernapi/fern-typescript-node-sdk Downloaded to /home/joe/dopt/repos/dopt/clients/@dopt/blocks/javascript-node-client/dist/typescript-cjs
+[api]: fernapi/fern-typescript-node-sdk Finished.
+[api]: fernapi/fern-typescript-node-sdk Downloaded to /home/joe/dopt/repos/dopt/clients/@dopt/blocks/javascript-node-client/dist/typescript-esm
+[api]: fernapi/fern-typescript-node-sdk Finished.

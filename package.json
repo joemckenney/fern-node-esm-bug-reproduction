@@ -23,6 +23,6 @@
     "unbuild": "^1.2.1"
   },
   "dependencies": {
-    "@dopt/blocks-javascript-node-client": "^1.0.1"
+    "@dopt/blocks-javascript-node-client": "workspace:*"
   }
 }

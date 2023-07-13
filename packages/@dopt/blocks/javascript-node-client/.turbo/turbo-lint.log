@@ -1,0 +1,5 @@
+
+> @dopt/blocks-javascript-node-client@2.0.0 lint /home/joe/dopt/repos/dopt/clients/@dopt/blocks/javascript-node-client
+> echo "@dopt/blocks-javascript-node-client does not require lint"; exit 0;
+
+@dopt/blocks-javascript-node-client does not require lint

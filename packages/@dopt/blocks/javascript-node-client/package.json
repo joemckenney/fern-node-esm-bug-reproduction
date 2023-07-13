@@ -1,0 +1,45 @@
+{
+  "name": "@dopt/blocks-javascript-node-client",
+  "version": "1.0.1",
+  "description": "",
+  "private": false,
+  "main": "./dist/typescript-cjs/index.js",
+  "module": "./dist/typescript-esm/index.js",
+  "types": "./dist/typescript-esm/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/typescript-cjs/index.js",
+      "import": "./dist/typescript-esm/index.js",
+      "types": "./dist/typescript-esm/index.d.ts"
+    }
+  },
+  "scripts": {
+    "👇required package scripts": "",
+    "build": "dotenv fern generate",
+    "clean": "shx rm -rf ./dist",
+    "dev": "echo \"@dopt/blocks-javascript-node-client does not require dev\"; exit 0;",
+    "format": "echo \"@dopt/blocks-javascript-node-client does not require format\"; exit 0;",
+    "formatcheck": "echo \"@dopt/blocks-javascript-node-client does not require formatcheck\"; exit 0;",
+    "lint": "echo \"@dopt/blocks-javascript-node-client does not require lint\"; exit 0;",
+    "test": "echo \"@dopt/blocks-javascript-node-client does not require test\"; exit 0;",
+    "typecheck": "echo \"@dopt/blocks-javascript-node-client does not require typecheck\"; exit 0;",
+    "☝️ required package scripts": "",
+    "prepublishOnly": "NODE_ENV=production pnpm -w exec turbo run build --filter=\"@dopt/blocks-javascript-node-client\""
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/url-join": "4.0.1",
+    "@ungap/url-search-params": "0.2.2",
+    "axios": "1.4.0",
+    "form-data": "4.0.0",
+    "js-base64": "3.7.2",
+    "url-join": "4.0.1"
+  },
+  "devDependencies": {
+    "dotenv-cli": "7.2.1",
+    "fern-api": "0.11.4",
+    "ts-node": "10.9.1"
+  }
+}
